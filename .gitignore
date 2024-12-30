@@ -1,0 +1,197 @@
+# =============================================================================
+# 📂 macOS 系統相關
+# =============================================================================
+
+# macOS 系統文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 避免 macOS 快速查看（Quick Look）產生的臨時文件
+._*
+
+# macOS Spotlight 檔案
+.Spotlight-V100
+.Trashes
+
+# macOS 復原文件
+*.swp
+
+# =============================================================================
+# 🐍 Python 開發相關
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 擴展
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# 通常這些文件由 Python 腳本從模板生成，在 PyInstaller 建立 exe 前注入日期或其他資訊
+*.manifest
+*.spec
+
+# 安裝程序日誌
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 單元測試 / 覆蓋率報告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# 翻譯文件
+*.mo
+*.pot
+
+# Django 專案
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask 專案
+instance/
+.webassets-cache
+
+# Scrapy 專案
+.scrapy
+
+# Sphinx 文檔
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+# 對於庫或套件，可能希望忽略這些文件，因為代碼預期在多個環境中運行；否則，檢查它們
+# .python-version
+
+# pipenv
+# 根據 pypa/pipenv#598，建議將 Pipfile.lock 包含在版本控制中。
+# 但是，若在協作中有平台特定依賴或依賴項不支援跨平台，pipenv 可能會安裝不工作或不安裝所有必要的依賴。
+# Pipfile.lock
+
+# UV
+# 類似於 Pipfile.lock，一般建議將 uv.lock 包含在版本控制中。
+# 這對於二進位包特別推薦，以確保可重現性，並且更常見於庫中忽略。
+# uv.lock
+
+# poetry
+# 類似於 Pipfile.lock，一般建議將 poetry.lock 包含在版本控制中。
+# 這對於二進位包特別推薦，以確保可重現性，並且更常見於庫中忽略。
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+# poetry.lock
+
+# pdm
+# 類似於 Pipfile.lock，一般建議將 pdm.lock 包含在版本控制中。
+# pdm 會在 .pdm.toml 中儲存專案範圍的配置，但建議不要將其包含在版本控制中。
+# https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582；例如用於 github.com/David-OConnor/pyflow 和 github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath 解析文件
+*.sage.py
+
+# 環境變數
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder 專案設定
+.spyderproject
+.spyproject
+
+# Rope 專案設定
+.ropeproject
+
+# mkdocs 文檔
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre 類型檢查器
+.pyre/
+
+# pytype 靜態類型分析器
+.pytype/
+
+# Cython 調試符號
+cython_debug/
+
+# =============================================================================
+# 🛠️ IDE 和編輯器相關
+# =============================================================================
+
+# PyCharm
+# JetBrains 特定模板在單獨的 JetBrains.gitignore 中維護，可從以下鏈接獲取：
+# https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+# 並可添加到全局 gitignore 或合併到此文件中。
+# 一個更徹底的選項（不推薦）是取消註解以下行以忽略整個 .idea 資料夾。
+#.idea/
+
+# =============================================================================
+# 📦 其他
+# =============================================================================
+
+# 其他
+reports
+
+# PyPI 配置文件
+.pypirc
